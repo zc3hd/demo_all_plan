@@ -226,7 +226,7 @@ var plans_data = [
 
   {
     name: "webpack-1",
-    date: '2018-11-2',
+    date: '2018-11-02',
     info: `
     
     demo: demo_webpack_learn
@@ -248,18 +248,35 @@ var plans_data = [
       只是index.html改变，页面不会刷新。
     `,
   },
+
+  
   {
     name: "webpack-2",
-    date: '2018-11-5',
+    date: '2018-11-05',
     info: `
     
     dir: demo_webpack_learn
-
-    deom_002：对webpack稍微深入的了解，node_api方法，比上一版本好的地方就是html也会有刷新。
+    demo_002：对webpack稍微深入的了解，node_api方法，比上一版本好的地方就是html也会有刷新。
 
     1.自动刷新分为 iframe 和 inline刷新
     2.inline刷新的实现方式有两种，一个是命令行模式。一个是node api方法
     3.这个主要是实现node api方法。配置项和gulp一样，指定一个功能模块。编译的时候编译到一样的目录下。
+    `,
+  },
+
+    {
+    name: "webpack-3",
+    date: '2018-11-06',
+    info: `
+    
+    dir: demo_webpack_learn
+    demo_003：对vue项目单个组件的测试和打包
+
+    1.需要在每个模块下有个HTML和JS，入口。
+    2.vue的build输出：less不会剥离，里面的图片路径会变。
+    3.组件异步加载，打包会打包到单独的JS里，命名从0开始
+    4.自己的JS模块异步加载，打包单独打包，命名按照自己的名字开始。
+
     `,
   },
 
