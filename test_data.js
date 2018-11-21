@@ -3,7 +3,42 @@
 
 // 所有的计划
 var plans_data = [
+  
 
+  // 
+  {
+    name: "node-5",
+    date: '2018-11-20',
+    info: `
+    
+    dir: demo-node-learn
+
+    node_008：
+     用户访问状态的识别：cookie 和 session
+     cookie：就是把用户访问的东西，随着响应头里面有cookie设置
+     session：就是把用户的cookie进行加密和服务器缓存上。
+    `,
+  },
+
+  // 
+  {
+    name: "node-4",
+    date: '2018-11-20',
+    info: `
+    
+    dir: demo-node-learn
+    node_005：
+      1.gulp 和node一起开发时的工具、
+
+    node_006：
+      mongoDB 安装 命令行使用
+
+    node_007：
+      mongoDB DAO层的封装
+      全局进行数据库配置连接
+      每个提供API的模块里面配置访问的数据库的哪个集合
+    `,
+  },
 
   // 
   {
@@ -13,6 +48,9 @@ var plans_data = [
     
     dir: demo-node-learn
     node_004：
+      1.express 
+      2.中间件（next）
+      3.路由设计（模块化，不要MVC）
     `,
   },
 
