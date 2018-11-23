@@ -3,11 +3,22 @@
 
 // 所有的计划
 var plans_data = [
-  
+  // 
+  {
+    name: "node-9",
+    date: '2018-11-23',
+    info: `
+    
+    dir: demo-node-learn
+
+    node_009：
+     mongoose 现在感觉是没有想象中的好
+    `,
+  },
 
   // 
   {
-    name: "node-5",
+    name: "node-8",
     date: '2018-11-20',
     info: `
     
@@ -22,8 +33,8 @@ var plans_data = [
 
   // 
   {
-    name: "node-4",
-    date: '2018-11-20',
+    name: "node-5/6/7",
+    date: '2018-11-23',
     info: `
     
     dir: demo-node-learn
@@ -34,15 +45,17 @@ var plans_data = [
       mongoDB 安装 命令行使用
 
     node_007：
-      mongoDB DAO层的封装
-      全局进行数据库配置连接
-      每个提供API的模块里面配置访问的数据库的哪个集合
+      1.全局配置连接数据库的参数
+      2.mongoDB DAO层的封装
+        DAO层以面向对象进行封装（输出），每个方法用promise进行包装。
+        DAO层被调用，直接挂载到全局。
+      3.优化：可以每个API的模块里面配置访问的数据库的哪个集合参数
     `,
   },
 
   // 
   {
-    name: "node-3",
+    name: "node-4",
     date: '2018-11-15',
     info: `
     
@@ -57,7 +70,7 @@ var plans_data = [
 
   // 
   {
-    name: "node-2",
+    name: "node-3",
     date: '2018-11-09',
     info: `
     
@@ -72,7 +85,7 @@ var plans_data = [
 
   // 
   {
-    name: "node-1",
+    name: "node-1/2",
     date: '2018-11-07',
     info: `
     
