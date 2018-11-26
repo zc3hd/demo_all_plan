@@ -39,10 +39,8 @@
 
 ### 5.2 webpack与express
 
-* 针对：前端为vue或者JS开发，后台为express，一个人。
-* 目前无框架。
-
-
+* 针对：前端为webpack进行构建，后台为express，一个人开发。
+* 有KIT，见003-demo_webpack_learn/004
 
 
 ### 其他
