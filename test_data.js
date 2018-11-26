@@ -3,6 +3,21 @@
 
 // 所有的计划
 var plans_data = [
+// 
+  {
+    name: "node-10/11",
+    date: '2018-11-25',
+    info: `
+    
+    dir: demo-node-learn
+
+    node_010：
+     mongoose step 2:创建文档模型，模型
+     
+    node_011：
+     mongoose step 3:关联和聚合
+    `,
+  },
   // 
   {
     name: "node-9",

@@ -8,8 +8,10 @@
 
 ### 2.gulp
 
-* 针对前端为JS模块开发的打包实时打包工具。主要是配置项。
-* 目前gulpfile.js比较符合公司的开发情况。
+```
+001-demo_gulp_learn/gulp-001：针对前端为JS模块化开发的实时测试打包工具。
+001-demo_gulp_learn/gulp-002：gulp+express前后同时开发的工具。
+```
 
 ### 3.vue
 
@@ -18,7 +20,7 @@
 
 ### 4.webpack
 
-* 按照上面的思路，学习webpack，知道webpack有几种编译模式，对于纯JS项目和vue项目更适合用是什么编译工具。vue建议用webpack就行，js用现在的gulp就可以了。
+* 按照上面的思路，学习到了webpack，知道webpack有几种编译模式，对于纯JS项目和vue项目更适合用是什么编译工具。vue建议用webpack就行，js用现在的gulp就可以了。
 * 最后如果后台也是你做，你就需要知道node。
 
 * 问题1: webpack如何JS内部直接引用的img地址抽取出来？
@@ -26,7 +28,7 @@
 
 ### 5.node
 
-* Express：知道如何指定静态服务的中间件，现在的模式是根据webapp里模块对应来设计路由，不要ejs,不要后台MVC。这个感觉特别重要，不要什么MVC，维护和开发省时才是硬道理。内部API模块完全按照面向对象的写法提供API服务，API的路由设计也写在内部。
+* Express：知道如何指定静态服务的中间件，现在的模式是根据webapp里模块对应来设计路由，不要ejs,不要后台MVC。维护和开发省时才是硬道理。内部API模块完全按照面向对象的写法提供API服务，API的路由设计也写在内部。
 
 ### 5.1 gulp与express
 * 问题1: 目前gulp框架适合纯JS工程，那么gulp如何引入express的服务？
@@ -39,6 +41,7 @@
 
 * 针对：前端为vue或者JS开发，后台为express，一个人。
 * 目前无框架。
+
 
 
 
