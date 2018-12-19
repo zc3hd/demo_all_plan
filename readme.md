@@ -4,7 +4,7 @@
 
 * 现有的工作模式：一个文件夹作为一个功能模块，下面有JS/html/less,JS采用面向对象开发，把需要的API写入模块的全局配置，主要配置参数进行全局配置
 * test_data.js测试的数据单独分一个JS文件。
-* 问题1：各种设计模式的学习
+* 基本知识见001-JS
 
 -------
 
@@ -27,13 +27,13 @@
 
 ### 4.webpack
 
-* 按照上面的思路，学习到了webpack，知道webpack有几种编译模式；要知道：纯DOM项目和vue项目更适合用是什么编译工具。vue用webpack就行，js用现在的gulp就可以了。
+* 按照上面的思路，学习到了webpack，知道webpack有几种编译模式；要知道：纯DOM项目和vue项目更适合用是什么编译工具。vue用webpack就行，js用也可以用webpack。
 
 #### vue + webpack
 * 见webpack-004/005；
 
 #### JQ_DOM + webpack
-* 见；
+* 见webpack-004/005；
  
 -------
 
@@ -47,7 +47,7 @@
 
 #### 5.2 webpack与express
 
-* 前端主要为vue,webpack进行编译，后台为express。见`demo_webpack-005`。前后端同时监测。
+* 前端主要为vue,webpack进行编译，后台为express。见`demo_webpack-005`。前后端同时各监测各的状态。
 
 
 ### 其他
