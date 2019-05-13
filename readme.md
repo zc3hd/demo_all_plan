@@ -3,7 +3,7 @@
 ### 1.JS
 
 * 现有的工作结构目录：一个文件夹作为一个功能模块，下面有JS/html/less,JS采用面向对象开发，把需要的API写入JS模块内的全局配置，主要全局配置参数进行全局配置；test_data.js测试的数据单独分一个JS文件。
-* 学习路径：[js](https://github.com/zc3hd/demo_JS_learn);
+* 学习路径：https://github.com/zc3hd/demo_JS_learn
 
 -------
 
@@ -34,28 +34,22 @@
 ### 5.node
 
 * Express：知道如何指定静态服务的中间件，现在的模式是根据webapp里模块对应来设计路由，不要ejs,不要后台MVC。维护和开发省时才是硬道理。内部API模块完全按照面向对象的写法提供API服务，API的路由设计也写在内部。
-
-#### 5.1 gulp与express
-
-* 针对项目：前端是纯JS开发，后台是express。目前的模式是express提供API和静态资源服务，nodemo热加载后台代码，bs做代理服务器，配合gulp进行代码实时编译和浏览器实时刷新。见 [架子](https://github.com/zc3hd/demo_gulp_learn/tree/master/gulp_002);
-
-#### 5.2 webpack与express
-
-* 前端主要为vue,webpack进行编译，后台为express。见[架子](https://github.com/zc3hd/demo_webpack_again/tree/master/webpack_demo_005)；为前后端同时各监测各的状态。
+* **gulp与express**：前端是纯JS开发，后台是express。目前的模式是express提供API和静态资源服务，nodemo热加载后台代码，bs做代理服务器，配合gulp进行代码实时编译和浏览器实时刷新。见 [架子](https://github.com/zc3hd/demo_gulp_learn/tree/master/gulp_002);
+* **webpack与express**：前端主要为vue,webpack进行编译，后台为express。见[架子](https://github.com/zc3hd/demo_webpack_again/tree/master/webpack_demo_005)；为前后端同时各监测各的状态。
 
 
 ### 6.其他
 
 * cordova是搞混合app开发玩的，这个后期一定要了解。
 
-### &.计划
+### &.码农计划
 
-> 1. 记忆曲线复习计划（进度：100%）
-> 2. 地图聊天室（进度：90%）
-> 3. 面试地图标注-小程序版 （进度：0%）
-> 4. 爬GitHub形成自己的博客（进度：0%）；
-> 5. 每次提交代码，标识特定字段，提醒服务器进行爬一次GitHub（进度：0%）
-> 6. 服务端每周自定义天数，随机项目，进行随机条数，自动提交GitHub小星星（进度：0%）；
+1. 记忆曲线复习计划  **（进度：100%）**
+2. 地图聊天室  **（进度：90%）**
+3. 面试地图标注-小程序版   **（进度：0%）**
+4. 爬GitHub形成自己的博客  **（进度：0%）**
+5. 每次提交代码，标识特定字段，提醒服务器进行爬一次GitHub生成自己的博客数据  **（进度：0%）**
+6. GAS计划：服务端每周期自定义天数，每个项目提交随机条数代码，不友好地保证GitHub的little star ；该项目已经完成，项目代码只供学习，若现实中出现负面影响，本码农概不负责。**（进度：100%）**
 
 
 
